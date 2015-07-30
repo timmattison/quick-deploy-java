@@ -179,3 +179,15 @@ This is application2 and it just prints out this message
 ```
 
 If everything worked out you now have an Elastic Beanstalk configuration that is running three applications in a single instance.  `application1` is running at the root and at the `1` path while `application1` is running at the `2` path.
+
+# Step 7: Terminate your application
+
+Make sure you terminate your application when you're done.
+
+```
+$ eb terminate
+```
+
+If you forget to do this step Amazon will keep your application running and keep billing you!  If you want to be extra thorough go into the [AWS Elastic Beanstalk console](https://console.aws.amazon.com/elasticbeanstalk/home) and delete the application completely.
+
+You should also go into S3 and delete any files that are left behind.  They don't take up much space but keeping S3 tidy for when you start making real use of Elastic Beanstalk makes sense.
