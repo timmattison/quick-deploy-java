@@ -43,3 +43,7 @@ This will look for your `.elasticbeanstalk` configuration in the directory `thre
 `app1` will be accessible at the `/path1` path.
 
 `app2` will be accessible at the `/path2` path.
+
+## Tutorial
+
+Want to get the hang of it?  [Follow the tutorial](TUTORIAL.md) and try launching a sample stack.
