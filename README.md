@@ -2,6 +2,10 @@
 
 This is a Python script that makes it easier to deploy Java applications to Elastic Beanstalk.  It supports deploying a single application or multiple applications into a single instance.
 
+## Requirements
+
+You must be running EB CLI tools version 3.4.7 or greater
+
 ## CAUTION
 
 This script **_deletes everything in the parent directory of your `.elasticbeanstalk` directory_** except for `.gitignore`, `.ebextensions`, and `.elasticbeanstalk`.
